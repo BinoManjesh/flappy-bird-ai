@@ -13,4 +13,9 @@ public class FlappyBirdGame extends Game {
         Assets.init();
         setScreen(new StartScreen(this));
     }
+
+    @Override
+    public void dispose() {
+        Assets.dispose();
+    }
 }

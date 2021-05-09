@@ -35,4 +35,13 @@ public class Assets {
 
         font = new BitmapFont(Gdx.files.internal("assets\\pixel-font.fnt"));
     }
+
+    public static void dispose() {
+        birdTexture.dispose();
+        backTexture.dispose();
+        playButton.getTexture().dispose();
+        evolveButton.getTexture().dispose();
+        pipeNinePatch.getTexture().dispose();
+        font.dispose();
+    }
 }
