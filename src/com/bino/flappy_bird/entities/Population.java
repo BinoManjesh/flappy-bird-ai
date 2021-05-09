@@ -39,7 +39,6 @@ public class Population {
             }
             pipes.init();
         }
-
     }
 
     private void createNewGeneration() {

@@ -3,10 +3,8 @@ package com.bino.flappy_bird.screens;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Input;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-import com.badlogic.gdx.math.MathUtils;
 import com.bino.flappy_bird.FlappyBirdGame;
 import com.bino.flappy_bird.entities.Bird;
-import org.omg.Messaging.SYNC_WITH_TRANSPORT;
 
 public class GameScreen extends MainScreen {
 

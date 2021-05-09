@@ -5,9 +5,9 @@ import com.badlogic.gdx.math.MathUtils;
 public class Brain {
 
     private static final int N_INPUTS = 4;
+    private final float[] weights;
 
     private float bias;
-    private final float[] weights;
 
     Brain() {
         bias = MathUtils.random(-100f, 100f);
