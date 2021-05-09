@@ -39,7 +39,7 @@ public class StartScreen extends ScreenAdapter {
 
                 if (Assets.playButton.getBoundingRectangle().contains(touchPos)) {
                     game.setScreen(new GameScreen(game));
-                } else if (Assets.evolveButton.getBoundingRectangle().contains(touchPos)) {
+                } else if (Assets.learnButton.getBoundingRectangle().contains(touchPos)) {
                     game.setScreen(new LearnScreen(game));
                 }
 
@@ -62,7 +62,7 @@ public class StartScreen extends ScreenAdapter {
 
         batch.begin();
         Assets.playButton.draw(batch);
-        Assets.evolveButton.draw(batch);
+        Assets.learnButton.draw(batch);
         batch.end();
     }
 

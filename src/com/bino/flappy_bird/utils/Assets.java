@@ -14,7 +14,7 @@ public class Assets {
 
     public static Sprite playButton;
 
-    public static Sprite evolveButton;
+    public static Sprite learnButton;
 
     public static NinePatch pipeNinePatch;
 
@@ -28,7 +28,7 @@ public class Assets {
         playButton = new Sprite(new Texture("assets\\play-button.png"));
         playButton.setY(playButton.getWidth()*2);
 
-        evolveButton = new Sprite(new Texture("assets\\learn-button.png"));
+        learnButton = new Sprite(new Texture("assets\\learn-button.png"));
 
         Texture pipeTexture = new Texture("assets\\pipe.png");
         pipeNinePatch = new NinePatch(pipeTexture, 0, 0, GlobalConstants.PIPE_EDGE, GlobalConstants.PIPE_EDGE);
@@ -40,7 +40,7 @@ public class Assets {
         birdTexture.dispose();
         backTexture.dispose();
         playButton.getTexture().dispose();
-        evolveButton.getTexture().dispose();
+        learnButton.getTexture().dispose();
         pipeNinePatch.getTexture().dispose();
         font.dispose();
     }
