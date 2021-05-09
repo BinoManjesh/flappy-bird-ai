@@ -1,7 +1,7 @@
 # Flappy Bird AI
 Test the game for yourself and then watch as the program learns how to play flappy bird using a single-layer perceptron trained using the genetic algorithm.
 
-This project was made using [libGDX](https://libgdx.com/). libGDX is a cross-platform Java game development framework. See the libGDX Javadocs [here](https://libgdx.badlogicgames.com/ci/nightlies/docs/api/).
+This project was made using [libGDX](https://libgdx.com/). See the libGDX Javadocs [here](https://libgdx.badlogicgames.com/ci/nightlies/docs/api/).
 
 ## How to run
 Download and run [flappy_bird_ai.exe](https://github.com/BinoManjesh/flappy-bird-ai/releases/download/1/flappy_bird_ai.exe). This file consists of the compiled source code and jars in the libs folder bundled into an exe using [Launch4j](http://launch4j.sourceforge.net/).
